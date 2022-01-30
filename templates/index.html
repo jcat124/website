@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drowsiness Detection</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../static/script.js" defer></script>
+  <link href="../static/styles.css" rel="stylesheet">
+  <title>Tabs</title>
 </head>
 <body>
-    <h1>Drowsy Driving Detector (DDD) plus: A Desktop App(Windows Only)</h1>
+  <ul class="tabs">
+    <li data-tab-target="#home" class="active tab">Home</li>
+    <li data-tab-target="#instructions" class="tab">Instructions</li>
+    <li data-tab-target="#why" class="tab">Why</li>
+    <li data-tab-target="#how" class="tab">How</li>
+    <li data-tab-target="#about" class="tab">About</li>
+    <li data-tab-target="#troubleshoot" class="tab">Troubleshoot</li>
+  </ul>
 
-    <h2>This is the Drowsy detector</h2>
-
-    <p>Make sure your computer has a speaker, microphone, and camera.</p>
-
-    <p>Version 1.0</p>
-
-    <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsysetup%20(1).exe">Download Drowsy-Detection-v1.0(Windows Only)</a>
-
-    <p>Press view raw or download and when downloaded follow the setup wizard and choose what you prefer.</p>
-    
-    <p>Your app is installed!</p>
-    
-    <p>Version 2.0</p>
-    
-    <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsyv2.0setup.exe">Download Drowsy-Detection-v2.0(Windows Only)</a>
-    
+  <div class="tab-content">
+    <div id="home" data-tab-content class="active">
+      <h1>Drowsy Driving Detector (DDD) plus: A Desktop App(Windows Only)</h1>
+      <h2>This is the Drowsy detector</h2>
+      <p>Make sure your computer has a speaker, microphone, and camera.</p>
+    </div>
+    <div id="instructions" data-tab-content>
+      <h1>Instructions</h1>
+      <h2>Version 1.0</h2>
+      <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsysetup%20(1).exe">Download Drowsy-Detection-v1.0(Windows Only)</a>
+      <h2>Version 2.0</h2>
+      <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsyv2.0setup.exe">Download Drowsy-Detection-v2.0(Windows Only)</a>
+    </div>
+    <div id="why" data-tab-content>
+      <p>Purpose of project</p>
+    </div>
+    <div id="how" data-tab-content>
+        <p>How I did my project?</p>
+    </div>
+    <div id="about" data-tab-content>
+        <p>About Me</p>
+    </div>
+    <div id="troubleshoot" data-tab-content>
+        <a href="https://bitbucket.org/jjooaa/desktop-app/jira?site=439c7366-1387-40b3-869e-980d3e2c1116&statuses=new&statuses=indeterminate&assignees=61f62470f5f5b80070b62499&assignees=EMPTY&sort=-updated&page=1">Tell us about any issues</a>
+    </div>
+  </div>
 </body>
 </html>
