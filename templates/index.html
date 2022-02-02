@@ -1,48 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="../static/script.js" defer></script>
-  <link href="../static/styles.css" rel="stylesheet">
-  <title>Drowsy Driving</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti Drowsy Driving</title>
 </head>
 <body>
-  <ul class="tabs">
-    <li data-tab-target="#home" class="active tab">Home</li>
-    <li data-tab-target="#instructions" class="tab">Instructions</li>
-    <li data-tab-target="#why" class="tab">Why</li>
-    <li data-tab-target="#how" class="tab">How</li>
-    <li data-tab-target="#about" class="tab">About</li>
-    <li data-tab-target="#troubleshoot" class="tab">Troubleshoot</li>
-  </ul>
+    <nav>
+        <p>Anti Drowsy Driving</p>
+        <ul>
+            <li><a href="index.html">Home</a>
+                <ul>
+                    <li><a href="pages/troubleshoot.html">Troubleshoot</a></li>
+                    <li><a href="pages/instructions.html">Instructions</a></li>
+                    <li><a href="pages/download.html">Download</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/why.html">Why</a></li>
+            <li><a href="pages/how.html">How</a></li>
+            <li><a href="pages/about.html">About</a></li>
+        </ul>
+    </nav>
 
-  <div class="tab-content">
-    <div id="home" data-tab-content class="active">
-      <h1>Drowsy Driving Detector (DDD) plus: A Desktop App(Windows Only)</h1>
-      <h2>This is the Drowsy detector</h2>
-      <p>Make sure your computer has a speaker, microphone, and camera.</p>
-    </div>
-    <div id="instructions" data-tab-content>
-      <h1>Instructions</h1>
-      <h2>Version 1.0</h2>
-      <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsysetup%20(1).exe">Download Drowsy-Detection-v1.0(Windows Only)</a>
-      <h2>Version 2.0</h2>
-      <a href="https://bitbucket.org/jjooaa/desktop-app/src/main/drowsyv2.0setup.exe">Download Drowsy-Detection-v2.0(Windows Only)</a>
-    </div>
-    <div id="why" data-tab-content>
-      <p>Purpose of project</p>
-    </div>
-    <div id="how" data-tab-content>
-        <p>How I did my project?</p>
-    </div>
-    <div id="about" data-tab-content>
-        <p>About Me</p>
-    </div>
-    <div id="troubleshoot" data-tab-content>
-        <a href="https://groups.google.com/u/1/g/drowsy-driving-app">Tell us about any issues</a>
-    </div>
-  </div>
+    <h1>This is the anti drowsy detector(DDD)</h1>
 </body>
 </html>
